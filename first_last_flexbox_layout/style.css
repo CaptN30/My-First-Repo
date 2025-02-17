@@ -1,0 +1,42 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:20px;
+  }
+  
+
+/* display: flex defines a flex container.
+flex-direction sets the axis direction (e.g., row, column).
+justify-content aligns items along the main axis (flex-start, center, etc.).
+align-items aligns items along the cross axis (stretch, center, etc.). */
+  main {    
+    display: flex;                      
+    justify-content: space-between;
+
+  }
+  
+  header {
+   
+    background-color: #ffcc00;
+    height: 150px;
+  }
+  
+  aside {
+    background-color: #9b59b6;
+    height: 300px;
+    width: 300px;
+  }
+  
+  section {
+    background-color: #1abc9c;
+    height: 300px;
+    width: 876px;
+  }
+  
+  footer {
+    background-color: #e74c3c;
+    height: 100px;
+  }

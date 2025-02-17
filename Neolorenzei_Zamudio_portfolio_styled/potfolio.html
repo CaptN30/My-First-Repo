@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is an example website for learning HTML and CSS.">
+        <link rel="stylesheet" href="style.css">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1>PORTFOLIO</h1>
+                <ul>
+                <li><a href="#about-section">ABOUT ME</a></li>
+                <li><a href="#project-section">PROJECTS</a></li>
+                <li><a href="#contact-section">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="content-section">
+            <div class="content-wrapper">
+                <div class="text">
+                    <h1>Neo Lorenzei B. Zamudio</h1>
+                    <p> a passionate <strong>front end developer</strong>, <strong>UI/UX designer</strong>, and <strong>graphic designer</strong>. I combine creativity with technical skills to build visually appealing and user-friendly web experiences. I'm constantly learning and growing, staying up-to-date with the latest trends and best practices in the field.</p>
+                </div>
+                <div class="image">
+                    <img src="profile.jpg" alt="About Me Image">
+                </div>
+            </div>
+        </section>
+        
+        <section id="about-section">
+            <div class="about-wrapper">
+                <div class="text">
+                    <h2>ABOUT ME</h2>
+                    <p>a 4th year Bachelor of Science in Information Technology. i live in Paracale, Camarines Norte
+                        my hobbies is to play guitar, play MOBA games, Watching movies/kdramas.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="project-section">
+            <h2>MY PROJECTS</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Project One</td>
+                        <td>A website that helps users track their daily habits</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Project Two</td>
+                        <td>A simple to do list application with storage</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>Project Three</td>
+                        <td>a photography portfolio showcasing my best work</td>
+                        <td>2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact-section">
+            <h2>CONTACT ME</h2>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name"> <br><br>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email">
+            </form>
+              
+        
+            <p>How did you hear about this portfolio?</p>
+            <input type="radio" id="Fiend" name="satisfaction_preference" value="Fiend">
+            <label for="Fiend">Friend</label> <br>
+            <input type="radio" id="socialmedia" name="satisfaction_preference" value="socialmedia">
+            <label for="socialmedia">Social Media</label><br>
+            <input type="radio" id="searchengine" name="satisfaction_preference" value="searchengine">
+            <label for="searchengine">Search Engine</label><br>
+            <input type="radio" id="other" name="satisfaction_preference" value="other">
+            <label for="other">Other</label><br>
+
+
+            <p>Skills Interests</p>
+            <input type="checkbox" id="webdev" name="webdev">
+            <label for="webdev">Web Development</label><br>
+            <input type="checkbox" id="design" name="design">
+            <label for="design">Design</label><br>
+            <input type="checkbox" id="photography" name="photography">
+            <label for="photography">photography </label> <br>   
+
+            <br>
+            <label for="message">Comment or Messages</label> <br>
+            <textarea id="message" name="message"></textarea>
+            <br>
+            <button>Submit</button>
+        </section> 
+
+        <footer>
+            <p> Neo lorenzei Zamudio © 2025  </p>
+        </footer>
+    </body>
+</html>

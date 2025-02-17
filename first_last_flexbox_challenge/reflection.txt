@@ -1,0 +1,4 @@
+the challenges i've encountered is when i always goes 
+back to the flexbox video tutorial just to make sure 
+im using the proper tags and value to emit the example
+layout that we supposedly needed to copy.
