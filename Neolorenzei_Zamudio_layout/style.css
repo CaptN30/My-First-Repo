@@ -134,6 +134,11 @@ article {
     flex-direction: column;
 }
 
+.arrow {
+  height: 70px;
+  width: 70px;
+}
+
 article h2 {
     width: 100%;;
 }
