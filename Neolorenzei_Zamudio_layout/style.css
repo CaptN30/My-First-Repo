@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(33,37,41);
+}
+
+nav {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    padding: 10px 20px;
+    background-color: rgb(110,44,243);
+    height: 5%;
+}
+
+ul {
+
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+
+li img {
+    width: 50px;
+    height: 30px; 
+    margin-right: 10px; 
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 20px; 
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+
+#search-container input {
+    margin: 75%;
+    padding: 8px 12px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(99,39,219);
+    border: .5px solid #999393;
+    border-radius: 5px;
+    outline: none;
+}
+
+main {
+    margin-top: 50px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: baseline;
+}
+
+img{
+    padding:10px;
+    width: 120px;
+}
+
+h2{
+    text-align: center;
+    width: 55%;
+    font-size: 60px;
+    color: white;
+}
+
+p{
+    width: 55%;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(179,180,188);
+    margin-top: 10px;
+}
+
+section {
+    margin-top: 10px;
+}
+
+button {
+    color:white;
+    height: 60px;
+    border: none;
+    border-radius: 10px
+}
+
+.box1 {
+    padding: 20px;
+    background-color: rgb(48,51,55);
+}
+
+.box2 {
+
+    padding: 20px;
+    background-color: rgb(113,44,249);
+}
+
+aside {
+    margin-top: 20px;
+}
+
+.text1 {
+    color: gray;
+    text-decoration: none;
+}
+
+.text2 {
+    color: gray;
+}
+
+article {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+article h2 {
+    width: 100%;;
+}
+
+article p {
+    margin-top: 20px;
+    width: 70%;;
+}
+
+article a {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(108,165,250);
+    margin-top: 20px;
+    width: 70%;;
+}

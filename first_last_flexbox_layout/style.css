@@ -7,7 +7,6 @@ body {
     gap:20px;
   }
   
-
 /* display: flex defines a flex container.
 flex-direction sets the axis direction (e.g., row, column).
 justify-content aligns items along the main axis (flex-start, center, etc.).
@@ -15,7 +14,7 @@ align-items aligns items along the cross axis (stretch, center, etc.). */
   main {    
     display: flex;                      
     justify-content: space-between;
-
+    
   }
   
   header {
