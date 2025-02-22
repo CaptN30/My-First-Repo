@@ -1,0 +1,508 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    
+    background-color: #fff;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+   
+}
+
+nav {
+    position: absolute;
+    border-top: 3px solid orange;
+    border-bottom: 1px solid rgb(158, 154, 154);
+    width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav img {
+    margin-left: 100px;
+    width: 50px;
+    height: 70%;
+}
+
+nav ul {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul li {
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-name{
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: rgb(158, 154, 154);
+}
+
+
+#search-container {
+    width: 500px;
+    height: 10px;   
+   
+}
+
+.search-container input[type="text"]{
+    width: 520px;
+    height: 10px;
+    padding: 9px;          
+    font-size: 16px;        
+    color: rgb(158, 154, 154);   
+    border-radius: 5px;
+    border: 1px solid rgb(158, 154, 154);
+    text-align: left;
+    
+}
+
+.button-login{
+    height: 30px;
+    width: 70px;
+    padding: 6px;
+    background-color: #fff;
+    border: 1px solid blue;
+    border-radius: 5px;
+    color: blue;
+}
+
+.button-signup {
+    height: 30px;
+    width: 70px;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: blue;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#container {
+    width: 85%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.sidebar-nav {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sidebar-nav ul {
+    margin-top: 30px;
+   list-style-type: none;
+   display: flex;
+   flex-direction: column;
+
+}
+
+.sidebar-nav ul li {
+    list-style: none;       
+    display: flex;          
+    align-items: center;    
+    padding: 8px;           
+}
+
+.sidebar-nav ul li img {
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+}
+
+.user-spacing{
+    margin-top: 25px;
+}
+
+.sidebar-nav ul li a{
+
+    margin-left: 10px;
+    text-decoration: none;
+    color:black ;
+}
+
+.lab-spacing {
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.main-content {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    border-bottom-left-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    background-color: rgb(249,250,250);
+}
+
+.left-box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-box h2{
+    margin: 10px;
+    width: 80%;
+    font-size: 30px; 
+}
+
+.left-box .bg-image{
+    background-image: url('./background-image.png'); 
+    background-repeat: no-repeat;
+    background-size:contain ;       
+    background-position: center;   
+    color: white;                  
+    padding: 0 15px;               
+}
+
+.left-box p {
+    margin: 10px;
+    width: 100%;
+}
+
+.left-box .left-btn {
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.left-box button{
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: blue;
+    padding: 12px;
+}
+
+.left-box a {
+    gap: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+.right-box{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.right-box img {
+    width: 100%;
+    height: 70%;
+}
+
+.text-center{
+    margin-top: 20px;
+}
+
+.services-container {
+    background-color:#fff;
+    margin-top: 20px;
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid rgb(160, 149, 149);
+}
+
+.services-left {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.services-container .services-left img{
+    padding: 20px;
+    width: 40%;
+    height: 25%;
+}
+
+.services-container .services-left p{
+    margin-left: 20px;
+    width: 85%;
+    height: 25%;
+}
+
+.services-container .services-btn {
+    margin-left: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.services-btn button {
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    width: 30%;
+}
+
+.services-right {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.services-right img{
+    width: 100%;
+    height: 87%;
+}
+
+.services-subcontainer {
+    background-color:rgb(59,64,69);
+    margin-top: 20px;
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid rgb(160, 149, 149);
+}
+
+
+.services-subcontainer .services-left {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.services-subcontainer .services-left img{
+    margin-top: 10px;
+    padding: 7px;
+    width: 40%;
+    height: 25%;
+}
+
+.services-subcontainer .services-left p{
+    margin-left: 20px;
+    width: 85%;
+    height: 25%;
+    color: #fff;
+}
+
+.services-subcontainer .services-btn {
+    margin-left: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.services-subcontainer .services-btn button {
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(231,112,13);
+    width: 50%;
+}
+
+.services-subcontainer .services-right {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.services-subcontainer .services-right img{
+    width: 100%;
+    height: 87%;
+}
+
+
+aside {
+    margin-top: 20px;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+aside ul{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+aside ul li{
+    border-radius: 10px;
+    border: 1px solid rgb(160, 149, 149);
+    background-color: #fff;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width:100% ;
+    height: 100%;
+}
+
+aside ul li img{
+    margin-left: 20px;
+    width: 50%;
+    height: 50%;
+}
+
+aside ul li p{
+    margin-left: 20px;
+    width: 90%;
+}
+
+aside ul li .ads-btn{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+aside ul li .ads-btn button{
+    padding: 10px;
+    border:none;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+
+}
+
+aside ul li .ads-btn a{
+   font-size: 12px;
+   color: blue;
+}
+
+aside ul li .api-img {
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 50%;
+    height: 30%;
+}
+
+article {
+    background-color:#fff;
+    margin-top: 20px;
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border: 1px solid rgb(160, 149, 149);
+}
+
+
+
+.work-left {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.work-left img{
+    padding: 20px;
+    width: 40%;
+    height: 25%;
+}
+
+.work-left p{
+    margin-left: 20px;
+    width: 85%;
+    height: 25%;
+}
+
+.work-btn {
+    margin-left: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.work-btn button {
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    width: 30%;
+}
+
+.work-right {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.work-right img{
+    width: 100%;
+    height: 127%;
+
+}
