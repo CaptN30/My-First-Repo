@@ -3,7 +3,7 @@
     margin: 0;
 }
 body {
-    
+
     background-color: #fff;
 }
 
@@ -111,7 +111,6 @@ main {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .sidebar-nav {
@@ -318,7 +317,6 @@ main {
     border: 1px solid rgb(160, 149, 149);
 }
 
-
 .services-subcontainer .services-left {
     width: 70%;
     height: 100%;
@@ -369,7 +367,6 @@ main {
     height: 87%;
 }
 
-
 aside {
     margin-top: 20px;
     height: 30%;
@@ -378,7 +375,6 @@ aside {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    
 }
 
 aside ul{
@@ -455,8 +451,6 @@ article {
     border: 1px solid rgb(160, 149, 149);
 }
 
-
-
 .work-left {
     width: 70%;
     height: 100%;
@@ -491,7 +485,7 @@ article {
     color: white;
     background-color: blue;
     padding: 10px;
-    width: 30%;
+    width: 40%;
 }
 
 .work-right {
@@ -506,3 +500,4 @@ article {
     height: 127%;
 
 }
+
